@@ -1,0 +1,36 @@
+.game{
+    height: auto;
+    width: 100%;
+    border: 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.game__title-rating{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.game__image{
+    width: 90%;
+    height: auto;
+}
+
+.game__image img{
+    width: 100%;
+    height: auto;
+}
+
+.game__button{
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    width: 300px;
+    max-width: 90%;
+    height: 50px;
+    font-family: inherit;
+    font-size: 1.5rem;
+    background-color: rgba(197, 153, 238, 0.315);
+}

@@ -1,14 +1,19 @@
-import './styles/App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import GameList from './components/GameList';
+import GameDetails from './components/GameDetails'
+import './styles/Header.css'
 
 function App() {
   return (
-    <div className="App">
-      <Header className="header" name='React Gamer'/>
-      <GameList />
-    </div>
-  );
+    <BrowserRouter>
+      <Header name='React Gamer' />
+      <Routes>
+        <Route exact path="/" element={<GameList />} />
+        <Route path="/games/:id" element={<GameDetails />} /> 
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;

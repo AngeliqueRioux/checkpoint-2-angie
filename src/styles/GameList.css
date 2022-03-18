@@ -1,4 +1,22 @@
 .gamer {
     width: 100%;
     height: 80%;
+    text-align: center;
+    margin: 0;
+}
+
+.gamer__cards__button{
+    border-radius: 10px;
+    border: 0;
+    width: 300px;
+    max-width: 90%;
+    height: 50px;
+    font-family: inherit;
+    font-size: 1.5rem;
+    background-color: rgba(197, 153, 238, 0.315);
+}
+
+.gamer__cards{
+    width: 100%;
+    height: auto;
 }
