@@ -8,7 +8,7 @@ const GameList = () => {
 
     useEffect(() => {
         axios
-          .get("https://apis.wilders.dev/wild-games")
+          .get("https://apis.wilders.dev/wild-games/games/")
           .then((res) => {
           setGamer(res.data);
           console.log(res)
